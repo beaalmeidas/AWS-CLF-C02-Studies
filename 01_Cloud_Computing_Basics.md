@@ -1,8 +1,5 @@
 # Cloud Computing Basics
 
-Created by: Beatriz Almeida
-Created time: December 6, 2024 4:09 PM
-
 # TOPICS
 
 - Definition of Cloud Computing

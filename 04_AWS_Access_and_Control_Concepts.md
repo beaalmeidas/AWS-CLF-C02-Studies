@@ -1,8 +1,5 @@
 # AWS Access and Control Concepts
 
-Created by: Beatriz Almeida
-Created time: December 6, 2024 7:36 PM
-
 # TOPICS
 
 - AWS Access Tools

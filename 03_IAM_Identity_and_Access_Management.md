@@ -1,8 +1,5 @@
 # IAM – Identity and Access Management
 
-Created by: Beatriz Almeida
-Created time: December 6, 2024 7:17 PM
-
 # TOPICS:
 
 - IAM – Definition

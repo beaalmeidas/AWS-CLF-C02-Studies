@@ -1,8 +1,5 @@
 # AWS Infrastructure and Customer Relations
 
-Created by: Beatriz Almeida
-Created time: December 6, 2024 5:39 PM
-
 # TOPICS
 
 - AWS Global Infrastructure (Regions, Availability Zones, Edge Locations)
