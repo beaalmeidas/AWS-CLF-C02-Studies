@@ -78,6 +78,15 @@ This repository contains my notes for the **AWS Certified Cloud Practitioner (CL
         - Business
         - Enterprise On-ramp
         - Enterprise
+<br>
+
+- [08: Security Groups and Ports](08_Security_Groups_and_Ports.md)
+    - Security Groups – Definition and important points
+    - Key Features of Security Groups
+    - Security Groups use cases
+    - Security Group Rules
+    - Best practices
+    - Important Ports
 
 ---
 
