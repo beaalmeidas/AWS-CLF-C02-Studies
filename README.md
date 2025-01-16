@@ -2,9 +2,6 @@
 
 This repository contains my notes for the **AWS Certified Cloud Practitioner (CLF-C02)** exam. All notes are written in **English** and are organized in Markdown files for easy readability and navigation.
 
-**PS.: As of Jan 08, 2025, the notes are not complete yet.**
-
-
 ---
 
 ## 📝 Topics Covered
@@ -35,6 +32,52 @@ This repository contains my notes for the **AWS Certified Cloud Practitioner (CL
 
 - [04: AWS Access and Control Concepts](04_AWS_Access_and_Control_Concepts.md)
     - AWS Access Tools
+        - AWS Management Console
+        - AWS CLI
+        - AWS SDK
+        - AWS Mobile Console
+        - AWS CloudShell
+        - AWS Tools for PoweShell
+        - AWS CDK
+<br>
+
+- [05: EC2 (AWS Elastic Compute Cloud)](05_EC2.md)
+    - Definition
+    - Use-Cases
+    - Setup
+    - Key features
+    - Instance Types
+    - Instance Launch Types
+    - Instance Type Suitability
+    - EC2 Pricing
+    - EC2 Shared Responsibility
+<br>
+
+- [06: S3 (Amazon Simple Storage Service)](06_S3.md)
+    - S3 Use Cases
+    - S3 Important Points
+    - S3 Storage Classes
+        - STANDARD CLASSES
+        - ONE-ZONE / INFREQUENT ACCESS
+        - S3 GLACIER
+        - S3 Object Lock & Glacier Vault Lock
+        - S3 Intelligent-Tiering
+    - S3 Snow Family
+    - Edge Computing
+    - S3 Websites
+    - S3 Security
+    - S3 Shared Responsibility
+    - AWS Storage Gateway
+<br>
+
+- [07: AWS Usage Services and Support Plans](07_AWS_Usage_Services_and_Support_Plans.md)
+    - AWS Health
+    - AWS Free Tier
+    - Support Plans
+        - Developer
+        - Business
+        - Enterprise On-ramp
+        - Enterprise
 
 ---
 

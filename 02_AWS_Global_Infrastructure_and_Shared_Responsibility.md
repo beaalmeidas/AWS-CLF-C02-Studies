@@ -1,4 +1,4 @@
-# AWS Infrastructure and Customer Relations
+# AWS Glonal Infrastructure and Shared Responsibility
 
 # TOPICS
 
@@ -9,31 +9,37 @@
 
 ## AWS Global Infrastructure
 
-- **Regions**
-    - Geographic area of the world
-    - Important points about Regions:
-        - Customer applications have to be deployed in the closest-possible AWS Region, for lower latency
-        - Services offered vary by region
-        - Prices vary by region
-- **Availability Zones (AZ)**
-    - Each AZ is an AWS data center in a certain Region
-    - There have to be AT LEAST 2 Availability Zones per Region
-    - Each AZ in a Region has the data and services of the other one(s) mirrored, for fault tolerance/security
-- **Edge Locations (EL)**
-    - Smaller data centers that suplement the AZs
-    - Functions: Caching, CDN, Cloud Fronting
-        - **Caching**:
-            
-            Storing frequently accessed data temporarily in a location closer to the user to reduce latency and improve performance.
-            
-        - **CDN (Content Delivery Network)**:
-            
-            A distributed network of servers that delivers content (images, videos, websites, etc) to users from the server closest to them, improving speed and reliability.
-            
-        - **Cloud Fronting**:
-            
-            Technique that uses a Content Delivery Network (CDN) to hide the intended destination of HTTPS traffic / mask the origin of a service or application, often done for performance or privacy purposes.. Example: AWS CloudFront.
-            
+## **Regions**
+
+- Geographic area of the world
+- **Important points about Regions:**
+    - Each AWS Region consists of a minimum of three Availability Zones (AZ)
+    - Customer applications have to be deployed in the closest-possible AWS Region, for lower latency
+    - Services offered vary by region
+    - Prices vary by region
+    
+
+## **Availability Zones (AZ)**
+
+- Each Availability Zone (AZ) consists of one or more discrete data centers
+- Each AZ in a Region has the data and services of the other one(s) mirrored, for fault tolerance/security
+
+## **Edge Locations (EL)**
+
+- Smaller data centers that suplement the AZs
+- Functions: Caching, CDN, Cloud Fronting
+    - **Caching**:
+        
+        Storing frequently accessed data temporarily in a location closer to the user to reduce latency and improve performance.
+        
+    - **CDN (Content Delivery Network)**:
+        
+        A distributed network of servers that delivers content (images, videos, websites, etc) to users from the server closest to them, improving speed and reliability.
+        
+    - **Cloud Fronting**:
+        
+        Technique that uses a Content Delivery Network (CDN) to hide the intended destination of HTTPS traffic / mask the origin of a service or application, often done for performance or privacy purposes.. Example: AWS CloudFront.
+        
 
 ## AWS Shared Responsibility Model
 
