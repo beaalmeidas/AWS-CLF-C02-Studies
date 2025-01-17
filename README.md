@@ -87,6 +87,37 @@ This repository contains my notes for the **AWS Certified Cloud Practitioner (CL
     - Security Group Rules
     - Best practices
     - Important Ports
+<br>
+
+- [09: AWS Storage Services Guide](09_AWS_Storage_Services_Guide.md)
+    - Object storage services
+        - S3
+        - S3 Glacier
+    - File storage services
+        - EFS (Elastic File System)
+        - FSx
+    - Block Storage services
+        - EBS (Elastic Block Store)
+    - Relational Database services
+        - RDS (Relational Database System)
+        - Amazon Aurora
+    - NoSQL Databases
+        - DynamoDB
+        - ElastiCache
+        - Neptune
+    - Data Warehousing
+        - Redshift
+    - Data Lakes
+        - LakeFormation
+    - Backup and Archival
+        - AWS Backup
+    - Hybrid and Edge Storage
+        - Storage Gateway
+        - SnowBall Family
+    - Specialized Databases
+        - QLDB (Quantum Ledger Database)
+        - Timestream
+        - OpenSearch Service
 
 ---
 
